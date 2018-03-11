@@ -1,0 +1,15 @@
+{
+  "name": "show-title-bookmarklet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "bookmarklet src/index.js dist/bookmarklet.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bookmarklet": "^1.0.1"
+  }
+}
